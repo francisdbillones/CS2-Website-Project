@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="2020, bad, timeline, year">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Francis Billones">
+	<meta name="description" content="A beautiful timeline of 2020 for not so beautiful events.">
+
+	<title>Timeline of 2020</title>
+	<link rel="icon" type="image/x-icon" href="https://bit.ly/31lRx0s">
+	<link rel="stylesheet" type="text/css" href="../../css/month.css">
+</head>
+<body>
+	<div class="container">
+		<nav>
+			<a href="../index.html"><img id="home-icon" src="https://bit.ly/2FIE8Im"></a>
+			<a href="../timeline.html"><img id="timeline-icon" src="https://bit.ly/2HonPRG"></a>
+
+			<a class="promotion" id="github" href="https://github.com/francisdbillones"><div id="github-sprite"></div></a>
+			<a class="promotion" id="twitter" href="https://twitter.com/francishubertdb"><div id="twitter-sprite"></div></a>
+			<a class="promotion" id="facebook" href="https://www.facebook.com/francisd.billones"><div id="facebook-sprite"></div></a>
+
+			<div class="progress-container">
+	    		<div class="progress-bar" id="bar"></div>
+	  		</div> 
+
+			<script>
+			// When the user scrolls the page, execute scroll bar
+			window.onscroll = function() {scroll_indicator()};
+
+			function scroll_indicator() {
+			  	var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			  	var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			  	var scrolled = (winScroll / height) * 100;
+			  	document.getElementById("bar").style.width = scrolled + "%";
+			}
+			</script>
+		</nav>
+
+		<header>
+			<img class="header-image" src="https://cnn.it/2Hi25Xp">
+			<div id="title">July</div>
+			<hr id="header-break">
+		</header>
+
+		<article>
+			<div class="event">
+				<h1 id="event-header">
+					Bubonic plague in Mongolia
+				</h1>
+
+				<hr>
+
+				<img id="event-pic" src="https://bit.ly/37qB2UT">
+				Health authorities in China identified a new case of the bubonic plague on July 5, the disease that triggered the “Black Death” pandemic back in the mid-1300s. The new case was found in a herdsman living in the northern city of Bayannur. Local health authorities issued a third-level alert, advising people to avoid hunting, eating, or transporting animals that may potentially carry the disease.
+				<div class="source">source: <a id="source-link" href="https://bit.ly/2TcvzZx">Healthline</a></div>
+				<div class="source">image source: <a id="source-link" href="https://www.infoplease.com/july-2020-current-events-world-news">Infoplease</a></div>
+			</div>
+
+			<div class="event">
+				<h1 id="event-header">
+					Twitter hacker pranks the public with fake promises of Bitcoin
+				</h1>
+
+				<hr>
+
+				<img id="event-pic" src="https://bit.ly/35gB9jb">
+				A group allegedly spearheaded by a Florida teen took over the Twitter accounts of prominent business and political figures — including Joe Biden, Bill Gates, Elon Musk and Kanye West — in a bitcoin scam.
+				<div class="source">source: <a id="source-link" href="https://bit.ly/3oaMoCq">New York Post</a></div>
+				<div class="source">image source: <a id="source-link" href="https://conandaily.com/2020/08/01/graham-clark-biography-13-things-about-twitter-hack-mastermind-from-tampa-florida/">CONAN Daily</a></div>
+			</div>
+		</article>
+	</div>
+</body>
+</html>

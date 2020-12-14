@@ -1,0 +1,223 @@
+/* -- container -- */
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background: rgb(29,29,29);
+	min-width: 1200px;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	font-family: BlinkMacSystemFont, -apple-system, Helvetica, sans-serif;
+	color: white;
+	font-weight: lighter;
+}
+/* -- container -- */
+
+/* -- navigation -- */
+nav {
+	width: 100%;
+	position: fixed;
+	background: black;
+	margin-top: 0;
+	padding: 0.5%;
+	z-index: 2;
+}
+
+#home-icon {
+	height: 30px;
+	margin-right: 1%;
+}
+
+#timeline-icon {
+	height: 30px;
+	margin-right: 7%;
+}
+
+.month-index {
+	margin-left: 0.1%;
+	margin-right: 0.1%;
+	position: relative;
+	text-decoration: none;
+	color: white;
+	transition: 0.3s;
+	font-size: large;
+}
+
+.month-index:hover {
+	font-weight: bold;
+}
+
+.promotion img {
+	right: 2%;
+	height: 30px;
+}
+
+#github {
+	position: absolute;
+	right: 7%;
+}
+
+#github-sprite {
+	background: url('../images/gray-icons.png') no-repeat -412px -16px;
+	width: 32px;
+	height: 33px;
+}
+
+#github-sprite:hover {
+	background: url('../images/gray-icons.png') no-repeat -412px -91px;
+	width: 32px;
+	height: 33px;
+}
+
+#twitter {
+	position: absolute;
+	right: 4.5%;
+}
+
+#twitter-sprite {
+	background: url('../images/gray-icons.png') no-repeat -296px -16px;
+	width: 33px;
+	height: 33px;
+}
+
+#twitter-sprite:hover {
+	background: url('../images/gray-icons.png') no-repeat -296px -91px;
+	width: 33px;
+	height: 33px;
+}
+
+#facebook {
+	position: absolute;
+	right: 2%;
+}
+
+#facebook-sprite {
+	background: url('../images/gray-icons.png') no-repeat -182px -17px;
+	width: 33px;
+	height: 32px;
+}
+
+#facebook-sprite:hover {
+	background: url('../images/gray-icons.png') no-repeat -182px -91px;
+	width: 33px;
+	height: 32px;
+}
+
+/* -- navigation -- */
+
+header {
+	position: relative;
+	top: 6%;
+	font-family: system-ui;
+	color: white;
+	height: 35%;
+	z-index: 1;
+}
+
+.header-image {
+	position: relative;
+	height: 100%;
+}
+
+#title {
+	position: absolute;
+	float: right;
+	font-size: 700%;
+	font-weight: bolder;
+	left: 35%;
+	top: 20%;
+}
+
+#header-break {
+	margin-top: 0;
+	height: 3px;
+	background: white;
+}
+/* -- header -- */
+
+/* -- content -- */
+article {
+	font-size: larger;
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	line-height: 1.75;
+	height: 100%;
+	width: 80%;
+}
+
+.month {
+	margin-bottom: 20%;
+}
+
+#month-header {
+	margin-top: 5%;
+	margin-bottom: 0;
+}
+
+#covid-stats {
+	font-size: small;
+	color: gray;
+}
+
+#month-pic {
+  	object-fit: cover;
+	margin: 1%;
+	float: left;
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	border: solid black;
+	transition: 0.3s;
+}
+
+#month-pic:hover {
+	border: solid white;
+}
+
+#event-page-tutorial {
+	font-size: small;
+	color: gray;
+}
+
+hr {
+	margin-top: 0;
+}
+
+#newline {
+	border: none;
+}
+/* -- content -- */
+
+/* -- scroll indicator -- */
+.progress-container {
+	position: fixed;
+	top: 6%;
+  	width: 100%;
+  	height: 3px;
+  	background: white;
+  	margin-left: 0;
+}
+
+.progress-bar {
+	margin-left: 0;
+	position: fixed;
+	top: 6%;
+  	height: 3px;
+  	background: #008b8b;
+  	width: 0%;
+ 	transition: 0.2s;
+}
+
+.copyright {
+	margin: 2.5%;
+	text-align: center;
+	font-size: 70%;
+	line-height:24px;
+	color:#737373;
+}

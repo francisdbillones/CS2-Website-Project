@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="2020, bad, timeline, year">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Francis Billones">
+	<meta name="description" content="A beautiful timeline of 2020 for not so beautiful events.">
+
+	<title>Timeline of 2020</title>
+	<link rel="icon" type="image/x-icon" href="https://bit.ly/31lRx0s">
+	<link rel="stylesheet" type="text/css" href="../../css/month.css">
+</head>
+<body>
+	<div class="container">
+		<nav>
+			<a href="../index.html"><img id="home-icon" src="https://bit.ly/2FIE8Im"></a>
+			<a href="../timeline.html"><img id="timeline-icon" src="https://bit.ly/2HonPRG"></a>
+
+			<a class="promotion" id="github" href="https://github.com/francisdbillones"><div id="github-sprite"></div></a>
+			<a class="promotion" id="twitter" href="https://twitter.com/francishubertdb"><div id="twitter-sprite"></div></a>
+			<a class="promotion" id="facebook" href="https://www.facebook.com/francisd.billones"><div id="facebook-sprite"></div></a>
+
+			<div class="progress-container">
+	    		<div class="progress-bar" id="bar"></div>
+	  		</div> 
+
+			<script>
+			// When the user scrolls the page, execute scroll bar
+			window.onscroll = function() {scroll_indicator()};
+
+			function scroll_indicator() {
+			  	var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			  	var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			  	var scrolled = (winScroll / height) * 100;
+			  	document.getElementById("bar").style.width = scrolled + "%";
+			}
+			</script>
+		</nav>
+
+		<header>
+			<img class="header-image" src="https://cnn.it/2Hi25Xp">
+			<div id="title">September</div>
+			<hr id="header-break">
+		</header>
+
+		<article>
+			<div class="event">
+				<h1 id="event-header">
+					Chadwick Boseman's death
+				</h1>
+
+				<hr>
+
+				<img id="event-pic" src="https://nym.ag/3ji03np">
+				US actor Chadwick Boseman, best known for playing Black Panther in the hit Marvel superhero franchise, died of cancer on August 29. He died at home in Los Angeles with his wife and family by his side, a statement posted on social media said.
+				<div class="source">source: <a id="source-link" href="https://bbc.in/2HkQOFZ">BBC</a></div>
+				<div class="source">image source: <a id="source-link" href="https://www.vulture.com/2020/08/the-defiant-career-of-chadwick-boseman-a-hollywood-king.html">Vulture</a></div>
+			</div>
+
+			<div class="event">
+				<h1 id="event-header">
+					Trump and Biden have their first presidental debate
+				</h1>
+
+				<hr>
+
+				<img id="event-pic" src="https://bit.ly/3dIv7vD">
+				The Presidential Debate held on September 29 was filled with interruptions, shouting, and disgraceful insults. President Trump in particular failed to comply with the debate moderator's requests.
+				<div class="source">source: <a id="source-link" href="https://wapo.st/3o8PYwJ">Washington Post</a></div>
+				<div class="source">image source: <a id="source-link" href="https://www.latimes.com/entertainment-arts/story/2020-09-30/trump-biden-presidential-debates-better-when-women-were-in-charge">LA Times</a></div>
+			</div>
+		</article>
+	</div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="keywords" content="2020, bad, timeline, year">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Francis Billones">
+		<meta name="description" content="A beautiful timeline of 2020 for not so beautiful events.">
+
+		<title>Timeline of 2020</title>
+		<link rel="icon" type="image/x-icon" href="https://bit.ly/31lRx0s">
+		<link rel="stylesheet" type="text/css" href="../../css/month.css">
+	</head>
+	<body>
+		<div class="container">
+			<nav>
+				<a href="../home.html"><img id="home-icon" src="https://bit.ly/2FIE8Im"></a>
+				<a href="../timeline.html"><img id="timeline-icon" src="https://bit.ly/2HonPRG"></a>
+
+				<a class="promotion" id="github" href="https://github.com/francisdbillones"><div id="github-sprite"></div></a>
+				<a class="promotion" id="twitter" href="https://twitter.com/francishubertdb"><div id="twitter-sprite"></div></a>
+				<a class="promotion" id="facebook" href="https://www.facebook.com/francisd.billones"><div id="facebook-sprite"></div></a>
+
+				<div class="progress-container">
+		    		<div class="progress-bar" id="bar"></div>
+		  		</div> 
+
+				<script>
+				// When the user scrolls the page, update scroll bar
+				window.onscroll = function() {scroll_indicator()};
+
+				function scroll_indicator() {
+				  	var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+				  	var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+				  	var scrolled = (winScroll / height) * 100;
+				  	document.getElementById("bar").style.width = scrolled + "%";
+				}
+				</script>
+			</nav>
+
+			<header>
+				<img class="header-image" src="https://cnn.it/2Hi25Xp">
+				<div id="title">November</div>
+				<hr id="header-break">
+			</header>
+
+			<article>
+				<div class="event">
+					<h1 id="event-header">
+						Biden wins the election
+					</h1>
+
+					<hr>
+
+					<img id="event-pic" src="https://bit.ly/37aZ6ui">
+					Biden wins over historically right-skewed states to get the win, 306 - 232.
+					<div class="source">source: <a id="source-link" href="https://www.ap.org/media-center/understanding-the-election">The Associated Press</a></div>
+					<div class="source">image source: <a id="source-link" href="https://bit.ly/37aZ6ui">CNBC</a></div>
+					<br><br>
+				</div>
+
+				<div class="event">
+					<h1 id="event-header">
+						Trump tries legal action against Biden.
+					</h1>
+
+					<hr>
+
+					<img id="event-pic" src="https://bit.ly/3qRqrcV">
+					Trump is claiming a fraudulent victory.
+
+					In the days since Joe Biden was projected as the president-elect, President Donald Trump has remained out of sight except for trips to his Virginia golf course. But the president is working the phones with aides and allies demanding they save his presidency.
+
+					President Donald Trump still refuses to acknowledge the votes.
+					<div class="source">source: <a id="source-link" href="https://abcn.ws/3qSZ6a3">ABC News</a></div>
+					<div class="source">image source: <a id="source-link" href="https://bit.ly/3qOZVAN">Deadline</a></div>
+				</div>
+			</article>
+		</div>
+	</body>
+</html>

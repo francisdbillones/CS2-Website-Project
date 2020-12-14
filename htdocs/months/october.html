@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="2020, bad, timeline, year">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Francis Billones">
+	<meta name="description" content="A beautiful timeline of 2020 for not so beautiful events.">
+
+	<title>Timeline of 2020</title>
+	<link rel="icon" type="image/x-icon" href="https://bit.ly/31lRx0s">
+	<link rel="stylesheet" type="text/css" href="../../css/month.css">
+</head>
+<body>
+	<div class="container">
+		<nav>
+			<a href="../index.html"><img id="home-icon" src="https://bit.ly/2FIE8Im"></a>
+			<a href="../timeline.html"><img id="timeline-icon" src="https://bit.ly/2HonPRG"></a>
+
+			<a class="promotion" id="github" href="https://github.com/francisdbillones"><div id="github-sprite"></div></a>
+			<a class="promotion" id="twitter" href="https://twitter.com/francishubertdb"><div id="twitter-sprite"></div></a>
+			<a class="promotion" id="facebook" href="https://www.facebook.com/francisd.billones"><div id="facebook-sprite"></div></a>
+
+			<div class="progress-container">
+	    		<div class="progress-bar" id="bar"></div>
+	  		</div> 
+
+			<script>
+			// When the user scrolls the page, execute scroll bar
+			window.onscroll = function() {scroll_indicator()};
+
+			function scroll_indicator() {
+			  	var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			  	var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			  	var scrolled = (winScroll / height) * 100;
+			  	document.getElementById("bar").style.width = scrolled + "%";
+			}
+			</script>
+		</nav>
+
+		<header>
+			<img class="header-image" src="https://cnn.it/2Hi25Xp">
+			<div id="title">September</div>
+			<hr id="header-break">
+		</header>
+
+		<article>
+			<div class="event">
+				<h1 id="event-header">
+					Protests in Thailand
+				</h1>
+
+				<hr>
+
+				<img id="event-pic" src="https://bit.ly/35i8udF">
+				For the last several months, Thailand has been witnessing pro-democracy demonstrations with protesters demanding that the monarchy be reformed and that Prime Minister Prayuth Chan-ocha resign. The current wave of protests is among the biggest seen in recent times.
+				<div class="source">source: <a id="source-link" href="https://bit.ly/3ko5kvi">Indian Express</a></div>
+				<div class="source">image source: <a id="source-link" href="https://www.theguardian.com/world/2020/oct/21/thailand-protests-court-orders-news-outlet-to-close-as-pm-accuses-it-of-inciting-unrest">The Guardian</a></div>
+			</div>
+
+			<div class="event">
+				<h1 id="event-header">
+					#PisayGiveUsABreak trends on Philippine Twitter
+				</h1>
+
+				<hr>
+
+				<img id="event-pic" src="https://bit.ly/35iBRfN">
+				Pisayans use the hashtag to express their thoughts and opinions about the current online class system.
+				<div class="source">source: <a id="source-link" href="https://twitter.com/francishubertdb">Myself</a></div>
+				<div class="source">image source: <a id="source-link" href="http://frugalteachermommy.com/2019/07/23/how-to-survive-your-first-week-in-pisay-philippine-science-high-school-pshs/">Frugal Teacher Mommy Blog</a></div>
+			</div>
+		</article>
+	</div>
+</body>
+</html>

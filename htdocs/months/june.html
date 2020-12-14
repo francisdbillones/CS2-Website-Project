@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="2020, bad, timeline, year">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Francis Billones">
+	<meta name="description" content="A beautiful timeline of 2020 for not so beautiful events.">
+
+	<title>Timeline of 2020</title>
+	<link rel="icon" type="image/x-icon" href="https://bit.ly/31lRx0s">
+	<link rel="stylesheet" type="text/css" href="../../css/month.css">
+</head>
+<body>
+	<div class="container">
+		<nav>
+			<a href="../index.html"><img id="home-icon" src="https://bit.ly/2FIE8Im"></a>
+			<a href="../timeline.html"><img id="timeline-icon" src="https://bit.ly/2HonPRG"></a>
+
+			<a class="promotion" id="github" href="https://github.com/francisdbillones"><div id="github-sprite"></div></a>
+			<a class="promotion" id="twitter" href="https://twitter.com/francishubertdb"><div id="twitter-sprite"></div></a>
+			<a class="promotion" id="facebook" href="https://www.facebook.com/francisd.billones"><div id="facebook-sprite"></div></a>
+
+			<div class="progress-container">
+	    		<div class="progress-bar" id="bar"></div>
+	  		</div> 
+
+			<script>
+			// When the user scrolls the page, execute scroll bar 
+			window.onscroll = function() {scroll_indicator()};
+
+			function scroll_indicator() {
+			  	var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			  	var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			  	var scrolled = (winScroll / height) * 100;
+			  	document.getElementById("bar").style.width = scrolled + "%";
+			}
+			</script>
+		</nav>
+
+		<header>
+			<img class="header-image" src="https://cnn.it/2Hi25Xp">
+			<div id="title">June</div>
+			<hr id="header-break">
+		</header>
+
+		<article>
+			<div class="event">
+				<h1 id="event-header">
+					BLM situation in America sparks international response
+				</h1>
+
+				<hr>
+
+				<img id="event-pic" src="https://bit.ly/3dIbOCF">
+				Thousands of protesters marched against police brutality and racism in Brussels, Belgium, on Sunday. The demonstration was about George Floyd, the black man killed in Minneapolis, Minnesota, when a police officer pressed his knee on Floyd’s neck for nearly nine minutes.<br>
+				<br>
+				It wasn’t just Brussels. Protests have erupted on nearly every continent, many defying coronavirus restrictions. People took to the streets in London, Seoul, Sydney, Monrovia, Rio de Janeiro. A mural honoring Floyd was painted amid the rubble in opposition-held Idlib, Syria.
+				<div class="source">source: <a id="source-link" href="https://bit.ly/3khqqeD">Vox</a></div>
+				<div class="source">image source: <a id="source-link" href="https://www.insider.com/shocking-things-that-have-happened-this-year-100-days-2020-4#april-7-officials-in-wuhan-china-lift-the-city-wide-lockdown-after-76-days-24">Insider</a></div>
+			</div>
+
+			<div class="event">
+				<h1 id="event-header">
+					Statues toppled over racial injustice
+				</h1>
+
+				<hr>
+
+				<img id="event-pic" src="https://bit.ly/2TdYtZa">
+				Thousands of protesters marched against police brutality and racism in Brussels, Belgium, on Sunday. Protests have erupted on nearly every continent, many defying coronavirus restrictions. People took to the streets in London, Seoul, Sydney, Monrovia, Rio de Janeiro. A mural honoring Floyd was painted amid the rubble in opposition-held Idlib, Syria.
+				<div class="source">source: <a id="source-link" href="https://bit.ly/3maEJlR">The Guardian</a></div>
+				<div class="source">image source: <a id="source-link" href="https://www.theatlantic.com/photo/2020/07/photos-statues-removed-george-floyd-protests-began/613774/">The Atlantic</a></div>
+			</div>
+		</article>
+	</div>
+</body>
+</html>

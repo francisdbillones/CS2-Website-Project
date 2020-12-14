@@ -1,0 +1,189 @@
+/* -- container -- */
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background: rgb(29,29,29);
+	min-width: 1200px;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	font-family: BlinkMacSystemFont, -apple-system, Helvetica, sans-serif;
+	color: white;
+	font-weight: lighter;
+	overflow: auto;
+}
+/* -- container -- */
+
+/* -- navigation -- */
+nav {
+	height: 5%;
+	position: relative;
+	background: black;
+	border-bottom: solid white;
+	margin-top: 0;
+	padding: 0.5%;
+}
+
+#home-icon {
+	height: 80%;
+	margin-right: 1%;
+}
+
+#timeline-icon {
+	height: 80%;
+}
+
+.promotion img {
+	right: 2%;
+	height: 30px;
+}
+
+#github {
+	position: absolute;
+	right: 7%;
+}
+
+#github-sprite {
+	background: url('../images/gray-icons.png') no-repeat -412px -16px;
+	width: 32px;
+	height: 33px;
+}
+
+#github-sprite:hover {
+	background: url('../images/gray-icons.png') no-repeat -412px -91px;
+	width: 32px;
+	height: 33px;
+}
+
+#twitter {
+	position: absolute;
+	right: 4.5%;
+}
+
+#twitter-sprite {
+	background: url('../images/gray-icons.png') no-repeat -296px -16px;
+	width: 33px;
+	height: 33px;
+}
+
+#twitter-sprite:hover {
+	background: url('../images/gray-icons.png') no-repeat -296px -91px;
+	width: 33px;
+	height: 33px;
+}
+
+#facebook {
+	position: absolute;
+	right: 2%;
+}
+
+#facebook-sprite {
+	background: url('../images/gray-icons.png') no-repeat -182px -17px;
+	width: 33px;
+	height: 32px;
+}
+
+#facebook-sprite:hover {
+	background: url('../images/gray-icons.png') no-repeat -182px -91px;
+	width: 33px;
+	height: 32px;
+}
+
+/* -- navigation -- */
+
+/* -- header -- */
+header {
+	position: relative;
+	color: white;
+	height: 35%;
+}
+
+.header-image {
+	position: relative;
+	height: 100%;
+}
+
+#title {
+	position: absolute;
+	float: right;
+	font-size: 800%;
+	font-weight: bolder;
+	left: 35%;
+	top: 15%;
+}
+
+#credit {
+	color: gray;
+	margin: 1%;
+	float: right;
+}
+
+#credit a {
+	text-decoration: none;
+	color: cyan;
+}
+
+#credit a:hover {
+	text-decoration: underline;
+}
+
+#header-break {
+	margin: 0;
+	height: 1%;
+	background: white;
+}
+/* -- header -- */
+
+/* -- content -- */
+article {
+	font-size: larger;
+	margin-top: 3%;
+	margin-left: 16%;
+	margin-right: 16%;
+	height: auto;
+	text-align: left;
+	line-height: 1.75;
+}
+
+article h1 {
+	line-height: 1;
+	text-align: center;
+	margin: 5%;
+}
+
+hr {
+	border: none;
+}
+
+#timeline-button {
+	position: relative;
+	text-align: center;
+	font-size: 150%;
+	margin: 1%;
+	background: gray;
+	border: solid gray;
+	border-radius: 25px;
+	width: 40%;
+	left: 30%;
+}
+
+#timeline-button a {
+	text-decoration: none;
+	color: cyan;
+	transition: 0.1s;
+}
+
+#timeline-button a:hover {
+	font-weight: bolder;
+}
+
+.copyright {
+	margin: 2.5%;
+	text-align: center;
+	font-size: 70%;
+	line-height:24px;
+	color:#737373;
+}

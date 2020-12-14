@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="2020, bad, timeline, year">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Francis Billones">
+	<meta name="description" content="A beautiful timeline of 2020 for not so beautiful events.">
+
+	<title>Timeline of 2020</title>
+	<link rel="icon" type="image/x-icon" href="https://bit.ly/31lRx0s">
+	<link rel="stylesheet" type="text/css" href="../../css/month.css">
+</head>
+<body>
+	<div class="container">
+		<nav>
+			<a href="../index.html"><img id="home-icon" src="https://bit.ly/2FIE8Im"></a>
+			<a href="../timeline.html"><img id="timeline-icon" src="https://bit.ly/2HonPRG"></a>
+
+			<a class="promotion" id="github" href="https://github.com/francisdbillones"><div id="github-sprite"></div></a>
+			<a class="promotion" id="twitter" href="https://twitter.com/francishubertdb"><div id="twitter-sprite"></div></a>
+			<a class="promotion" id="facebook" href="https://www.facebook.com/francisd.billones"><div id="facebook-sprite"></div></a>
+
+			<div class="progress-container">
+	    		<div class="progress-bar" id="bar"></div>
+	  		</div> 
+
+			<script>
+			// When the user scrolls the page, execute scroll bar 
+			window.onscroll = function() {scroll_indicator()};
+
+			function scroll_indicator() {
+			  	var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			  	var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			  	var scrolled = (winScroll / height) * 100;
+			  	document.getElementById("bar").style.width = scrolled + "%";
+			}
+			</script>
+		</nav>
+
+		<header>
+			<img class="header-image" src="https://cnn.it/2Hi25Xp">
+			<div id="title">March</div>
+			<hr id="header-break">
+		</header>
+
+		<article>
+			<div class="event">
+				<h1 id="event-header">
+					WHO declares COVID-19 a global pandemic
+				</h1>
+
+				<hr>
+
+				<img id="event-pic" src="https://bit.ly/3m6rIcL">
+				The World Health Organization (WHO) on March 11 declared COVID-19 a pandemic, pointing to the over 118,000 cases of the coronavirus illness in over 110 countries and territories around the world and the sustained risk of further global spread. Lockdowns in nearly every country are initiated.
+				<div class="source">source: <a id="source-link" href="https://bit.ly/2Tbz5n5">Time Magazine</a></div>
+				<div class="source">image source: <a id="source-link" href="https://www.washingtonpost.com/health/2020/03/11/who-declares-pandemic-coronavirus-disease-covid-19/">Washington Post</a></div>
+			</div>
+
+			<div class="event">
+				<h1 id="event-header">
+					Stocks plummet to a historical low
+				</h1>
+
+				<hr>
+
+				<img id="event-pic" src="https://bit.ly/3jhxqa2">
+				Stocks fell sharply as coronavirus cases outside China surged, stoking fears of a prolonged global economic slowdown from the virus spreading.<br><br>
+
+				The Dow closed 1,031.61 points lower. It was the Dow’s biggest point and percentage-point drop since February 2018. The Dow also gave up its gain for 2020 and is now down 2% for the year.<br><br>
+
+				This does not mean disaster for traders only. Pensions, loans, and others have the possibility to be wiped out.
+				 
+				<div class="source">source: <a id="source-link" href="https://cnb.cx/3ocRY7m">CNBC</a></div>
+				<div class="source">image source: <a id="source-link" href="https://www.insider.com/shocking-things-that-have-happened-this-year-100-days-2020-4#march-13-trump-declares-a-national-emergency-amid-the-coronavirus-pandemic-20">Insider</a></div>
+			</div>
+
+			<div class="event">
+				<h1 id="event-header">
+					Trump declares national emergency
+				</h1>
+
+				<hr>
+
+				<img id="event-pic" src="https://bit.ly/3obTg2o">
+				After weeks of downplaying the seriousness of the coronavirus pandemic, President Trump declared a national emergency on March 13, triggering the Stafford Act which allows states to access $50 billion in federal aid.
+				<div class="source">source: <a id="source-link" href="https://bit.ly/35mrGXL">Business Insider</a></div>
+				<div class="source">image source: <a id="source-link" href="https://www.insider.com/shocking-things-that-have-happened-this-year-100-days-2020-4#march-13-trump-declares-a-national-emergency-amid-the-coronavirus-pandemic-20">Insider</a></div>
+			</div>
+		</article>
+	</div>
+</body>
+</html>
