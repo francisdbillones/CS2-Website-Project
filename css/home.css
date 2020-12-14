@@ -158,6 +158,12 @@ hr {
 	border: none;
 }
 
+#home-page-video {
+	display: block;
+	margin-left: 50%;
+	margin-right: 50%;
+}
+
 #timeline-button {
 	position: relative;
 	text-align: center;
