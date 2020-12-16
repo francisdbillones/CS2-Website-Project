@@ -127,7 +127,7 @@ header {
 }
 
 #credit a:hover {
-	text-decoration: underline;
+	border-bottom: solid 1px;
 }
 
 #header-break {
