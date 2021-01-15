@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Help 2020's victims.</title>
 
@@ -12,6 +12,7 @@
     <link rel="icon" type="image/x-icon" href="https://bit.ly/31lRx0s">
     <link rel="stylesheet" type="text/css" href="../css/help.css">
     <script src="../scripts/blink.js"></script>
+    
 </head>
 <body>  
     <div class="container">
@@ -38,19 +39,8 @@
             
             <div class="progress-container">
                 <div class="progress-bar" id="bar"></div>
-            </div>
+            </div>  
             
-            <script>
-                // When the user scrolls the page, update progress indicator
-                window.onscroll = function() {scroll_indicator()};
-
-                function scroll_indicator() {
-                    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-                    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-                    var scrolled = (winScroll / height) * 100;
-                    document.getElementById("bar").style.width = scrolled + "%";
-                }
-            </script>
         </nav>
         
         <article class="eye-gallery">
@@ -164,6 +154,14 @@
                     Donate to: <a class="charity-link" href="https://donateppe.org/" target="_blank">DonatePPE</a>
                 </div>
             </div>
+            
+            <p id="credit">Image credits (in order): 
+                <a href="https://bit.ly/2XFFB7G" target="_blank">World Politics Review</a>, 
+                <a href="https://time.com/5892583/covid-19-1-million-deaths/" target="_blank">Time Magazine</a>,
+                <a href="https://calmatters.org/explainers/californias-worsening-wildfires-explained/" target="_blank">CalMatters</a>,
+                <a href="https://www.voanews.com/usa/day-100-protests-portland-police-declare-riot" target="_blank">Voice of America</a>,
+                <a href="https://time.com/4764079/policeman-on-fire-paris-may-day/" target="_blank">Time Magazine</a>
+            </p>
         </article>
     </div>
 </body>
