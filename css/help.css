@@ -5,6 +5,7 @@ html, body {
 	margin: 0;
 	background: rgb(29,29,29);
 	min-width: 1200px;
+    padding: 0;
 }
 
 .container {
@@ -13,18 +14,18 @@ html, body {
 	font-family: BlinkMacSystemFont, -apple-system, Helvetica, sans-serif;
 	color: white;
 	font-weight: lighter;
-	overflow: auto;
 }
 /* -- container -- */
 
 /* -- navigation -- */
 nav {
     z-index: 2;
-	width: 100%;
+	width: 100%;   
 	position: fixed;
 	background: black;
 	margin-top: 0;
 	padding: 0.5%;
+    top: 0;
 }
 
 #home-icon {
