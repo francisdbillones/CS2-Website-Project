@@ -1,14 +1,170 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Help 2020's victims.</title>
+
     <meta charset="utf-8">
 	<meta name="keywords" content="2020, help, year, donate, charity">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Francis Billones">
 	<meta name="description" content="Help out the victims of 2020.">
-	<title></title>
+    
+    <link rel="icon" type="image/x-icon" href="https://bit.ly/31lRx0s">
+    <link rel="stylesheet" type="text/css" href="../css/help.css">
+    <script src="../scripts/blink.js"></script>
 </head>
-<body>
+<body>  
+    <div class="container">
+        <nav>
+            <!-- navigate to other webpages !-->
+            <a href="../index.html"><img class="nav-object" id="home-icon" src="https://bit.ly/2FIE8Im"></a>
+            
+			<a href="timeline.html"><img class="nav-object" id="timeline-icon" src="https://bit.ly/2HonPRG"></a>
 
+            <!-- jump to specific donation section !-->
+			<a class="charity-index" href="#unicef">UNICEF</a>
+            <a class="charity-index" href="#redcross">Red Cross</a> 
+            <a class="charity-index" href="#beirut">Beirut</a>
+            <a class="charity-index" href="#unhcr">UNHCR</a>
+            <a class="charity-index" href="#who">WHO</a>
+            <a class="charity-index" href="#donateppe">DonatePPE</a>
+            
+            <!-- social media links !-->
+			<a class="promotion" id="github" href="https://github.com/francisdbillones"><div id="github-sprite"></div></a>
+            
+			<a class="promotion" id="twitter" href="https://twitter.com/francishubertdb"><div id="twitter-sprite"></div></a>
+            
+			<a class="promotion" id="stackoverflow" href="https://www.facebook.com/francisd.billones"><div id="stackoverflow-sprite"></div></a>
+            
+            <div class="progress-container">
+                <div class="progress-bar" id="bar"></div>
+            </div>
+            
+            <script>
+                // When the user scrolls the page, update progress indicator
+                window.onscroll = function() {scroll_indicator()};
+
+                function scroll_indicator() {
+                    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                    var scrolled = (winScroll / height) * 100;
+                    document.getElementById("bar").style.width = scrolled + "%";
+                }
+            </script>
+        </nav>
+        
+        <article class="eye-gallery">
+            <!-- animated eye picture gallery !-->
+            <h1>Open your eyes.</h1>
+            
+            <p id="image-eye-opening-reveal-hint">Hint: try moving your cursor in and out of the eye!</p>
+            <div class="image-eye-opening-reveal">  
+                <!--
+                these images won't be displayed, rather, they will be presented in order (like a slideshow) as the user hovers their mouse pointer over the div 
+                !-->
+                <img class="blink-images" src="https://bit.ly/3bHclpe">
+                <img class="blink-images" src="https://bit.ly/3sncNz7">
+                <img class="blink-images" src="https://bit.ly/2LVMFu4">
+                <img class="blink-images" src="https://bit.ly/35KmpKx">
+                <img class="blink-images" src="https://bit.ly/39CTysq">
+                
+            </div>
+            <script>blink();</script>
+        </article>
+        <br><br><br><br>
+        <article class="donation-section">
+            <!-- donation link section !-->
+            <h1>
+                Want to help?<hr>
+            </h1>
+            <div id="donation-section-desc">
+                Donating is one of the most generous and noble acts anyone can do. If you are lucky enough to not experience the woes of 2020, feel free to help those that did.
+            </div>
+
+            <div class="charity">
+                <h2 id="charity-header">
+                    <a name="unicef">UNICEF</a>
+                </h2>
+
+                <hr>
+
+                <div class="charity-desc">
+                    By donating to UNICEF you are directly supporting malnourished children, children at high risk of disease, and children with no access to education. 
+                    <br><br>
+                    Donate to: <a class="charity-link" href="https://bit.ly/3oRfaI8" target="_blank"> UNICEF</a>
+                </div>
+            </div>
+            
+            <div class="charity">
+                <h2 id="charity-header">
+                    <a name="redcross">Red Cross</a>
+                </h2>
+
+                <hr>
+
+                <div class="charity-desc">
+                    By donating to Red Cross you are directly supporting medical professionals that provide care for those that can't afford it. You are also helping them distribute food and essentials.
+                    <br><br>
+                    Donate to: <a class="charity-link" href="https://bit.ly/38NqGys" target="_blank">Red Cross</a>
+                </div>
+            </div>
+            
+            <div class="charity">
+                <h2 id="charity-header">
+                    <a name="beirut">Beirut</a>
+                </h2>
+
+                <hr>
+
+                <div class="charity-desc">
+                    The Beirut explosion was one that dominated headlines at the beginning of August. A threatening mushroom cloud hung over the city. Donate to Preemptive Love, a charity providing relief and care for Beirut's citizens.
+                    <br><br>
+                    Donate to: <a class="charity-link" href="https://bit.ly/3irx0zf" target="_blank">Preemptive Love</a>
+                </div>
+            </div>
+            
+            <div class="charity">
+                <h2 id="charity-header">
+                    <a name="beirut">UNHCR</a>
+                </h2>
+
+                <hr>
+
+                <div class="charity-desc">
+                    By donating to UNHCR, you are directly supporting victims of 2020's worst disasters, such as the Taal volcano eruption, the California fires, the Australian wildfires, even the Beirut explosion.
+                    <br><br>
+                    Donate to: <a class="charity-link" href="https://bit.ly/3oZ8d7K" target="_blank">UNHCR</a>
+                </div>
+            </div>
+            
+            <div class="charity">
+                <h2 id="charity-header">
+                    <a name="who">WHO</a>
+                </h2>
+
+                <hr>
+
+                <div class="charity-desc">
+                    By donating to WHO you are helping prevent the spread of COVID-19 and stopping it from defacing our world further.
+                    <br><br>
+                    Donate to: <a class="charity-link" href="https://bit.ly/38I2Q7s" target="_blank">WHO</a>
+                </div>
+            </div>
+            
+            <div class="charity">
+                <h2 id="charity-header">
+                    <a name="donateppe">DonatePPE</a>
+                </h2>
+
+                <hr>
+
+                <div class="charity-desc">
+                    By donating PPE to frontliners, you are helping them prevent the spread of COVID-19 and helping provide PPE for countries that do not have access or the resources.
+                    <br><br>
+                    Donate to: <a class="charity-link" href="https://donateppe.org/" target="_blank">DonatePPE</a>
+                </div>
+            </div>
+        </article>
+    </div>
 </body>
 </html>

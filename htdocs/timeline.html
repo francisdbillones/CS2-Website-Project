@@ -14,8 +14,12 @@
 <body>
 	<div class="container">
 		<nav>
+            <!-- navigate to other webpages !-->
 			<a href="../index.html"><img id="home-icon" src="https://bit.ly/2FIE8Im"></a>
+            
 			<a href="timeline.html"><img id="timeline-icon" src="https://bit.ly/2HonPRG"></a>
+            
+            <a href="help.html" id="help-page-link">Help</a>
 
 			<!-- jump to specific month !-->
 			<a class="month-index" href="#january">January</a>
@@ -30,7 +34,8 @@
 			<a class="month-index" href="#october">October</a>
 			<a class="month-index" href="#november">November</a>
 			<a class="month-index" href="#december">December</a>
-
+            
+            <!-- social media links !-->
 			<a class="promotion" id="github" href="https://github.com/francisdbillones"><div id="github-sprite"></div></a>
 			<a class="promotion" id="twitter" href="https://twitter.com/francishubertdb"><div id="twitter-sprite"></div></a>
 			<a class="promotion" id="stackoverflow" href="https://stackoverflow.com/users/14767583/francis-hubert?tab=profile"><div id="stackoverflow-sprite"></div></a>
@@ -39,16 +44,7 @@
 	    		<div class="progress-bar" id="bar"></div>
 	  		</div> 
 
-			<script>
-			// When the user scrolls the page, execute myFunction 
-			window.onscroll = function() {scroll_indicator()};
-
-			function scroll_indicator() {
-			  	var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-			  	var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-			  	var scrolled = (winScroll / height) * 100;
-			  	document.getElementById("bar").style.width = scrolled + "%";
-			}
+			<script src="../scripts/scrollindicator.js">
 			</script>
 		</nav>
 
@@ -74,7 +70,7 @@
 					This was the beginning of 2020. Notable events include the Australian bushfires, the eruption of Taal Volcano in the Philippines, and increasing tensions between Iran and the US.
 				</div>
 
-				<div id="event-page-tutorial"><- psst. click on the image for a more detailed analysis of this month.</div>
+				<div id="event-page-tutorial"> psst. click on the image for a more detailed analysis of this month.</div>
 			</div>
 
 			<div class="month">

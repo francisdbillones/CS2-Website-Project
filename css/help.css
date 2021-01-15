@@ -1,0 +1,253 @@
+/* -- container -- */
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background: rgb(29,29,29);
+	min-width: 1200px;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	font-family: BlinkMacSystemFont, -apple-system, Helvetica, sans-serif;
+	color: white;
+	font-weight: lighter;
+	overflow: auto;
+}
+/* -- container -- */
+
+/* -- navigation -- */
+nav {
+	width: 100%;
+	position: fixed;
+	background: black;
+	margin-top: 0;
+	padding: 0.5%;
+	z-index: 2;
+}
+
+#home-icon {
+	height: 30px;
+	margin-right: 1%;
+}
+
+#home-icon:hover {
+    transform: scale(1.15);
+}
+
+#timeline-icon {
+	height: 30px;
+	margin-right: 7%;
+}
+
+#timeline-icon:hover {
+    transform: scale(1.15);
+}   
+
+.charity-index {
+	margin-left: 0.1%;
+	margin-right: 0.1%;
+	position: relative;
+	text-decoration: none;
+	color: white;
+	transition: 0.3s;
+	font-size: large;
+}
+
+.charity-index:hover {
+	font-weight: bold;
+}
+
+.promotion img {
+	right: 2%;
+	height: 30px;
+}
+
+#github {
+	position: absolute;
+	right: 7%;
+}
+
+#github-sprite {
+    background: url('../sprites/social-media-icons-sprites.png') no-repeat -5px -5px;
+    width: 30px;
+    height: 30px;
+}
+
+#github-sprite:hover {
+    transform: scale(1.5);
+}
+
+#twitter {
+	position: absolute;
+	right: 4.5%;
+}
+
+#twitter-sprite {
+    background: url('../sprites/social-media-icons-sprites.png') no-repeat -85px -45px;
+    width: 30px;
+    height: 30px;
+}
+
+#twitter-sprite:hover {
+	transform: scale(1.25);
+}
+
+#stackoverflow {
+	position: absolute;
+	right: 2%;
+}
+
+#stackoverflow-sprite {
+	background: url('../sprites/social-media-icons-sprites.png') no-repeat -45px -45px;
+    width: 30px;
+    height: 30px;
+}
+
+#stackoverflow-sprite:hover {
+	transform: scale(1.25);
+}
+
+/* -- navigation -- */
+
+/* -- header -- */
+header {
+	position: relative;
+	color: white;
+	height: 35%;
+}
+
+.header-image {
+	position: relative;
+	height: 100%;
+}
+
+#title {
+	position: absolute;
+	float: right;
+	font-size: 800%;
+	font-weight: bolder;
+	left: 35%;
+	top: 15%;
+}
+
+#credit {
+	color: gray;
+	margin: 1%;
+	float: right;
+}
+
+#credit a {
+	text-decoration: none;
+	color: cyan;
+}
+
+#credit a:hover {
+	border-bottom: solid 1px;
+}
+
+#header-break {
+	margin: 0;
+	height: 1%;
+	background: white;
+}
+/* -- header -- */
+
+/* -- content -- */
+.eye-gallery {
+	font-size: larger;
+	margin-top: 3%;
+	margin-left: 16%;
+	margin-right: 16%;
+	height: auto;
+	text-align: center;
+	line-height: 1.75;
+}
+
+.eye-gallery h1 {
+    font-weight: bolder;
+    font-size: 400%;
+	line-height: 1;
+	text-align: center;
+	margin: 5%;
+}
+    
+.image-eye-opening-reveal {
+    margin: 10%;
+    height: 320px;
+    width: 320px;
+    border-radius: 50%;
+    border: solid white 5px;
+    overflow: hidden;
+    transition: transform 200ms ease-in-out;
+    margin: auto;
+    transform: scaleY(0.3);
+    background: black;
+}
+
+.image-eye-opening-reveal:hover {
+    transform: scale(2.5);
+}
+
+#image-eye-opening-reveal-hint {
+    color: darkgray;
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+.blink-images {
+    display: none;
+}
+
+hr {
+    border: 0;
+    background-color: white;
+    height: 1px;
+    margin-top: 0;
+}
+
+.donation-section {
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	line-height: 1.75;
+	height: 100%;
+	width: 80%;
+}
+
+.donation-section h1 {
+    font-size: xx-large;    
+}
+
+#donation-section-desc {
+    font-size: large;
+}
+
+.charity {
+	margin-bottom: 5%;
+}
+
+#charity-header {
+	margin-top: 5%;
+	margin-bottom: 0;
+}
+
+.charity-link {
+    text-decoration: none;
+    color: cyan;
+}
+
+#newline {
+    border: none;
+}
+
+.copyright {
+	margin: 2.5%;
+	text-align: center;
+	font-size: 70%;
+	line-height:24px;
+	color:#737373;
+}

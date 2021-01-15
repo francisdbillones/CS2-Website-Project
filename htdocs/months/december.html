@@ -25,18 +25,8 @@
 		    		<div class="progress-bar" id="bar"></div>
 		  		</div> 
 
-				<script>
-				// When the user scrolls the page, update scroll bar
-				window.onscroll = function() {scroll_indicator()};
-
-				function scroll_indicator() {
-				  	var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-				  	var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-				  	var scrolled = (winScroll / height) * 100;
-				  	document.getElementById("bar").style.width = scrolled + "%";
-				}
-				</script>
-			</nav>>
+				<script src="../../scripts/scrollindicator.js"></script>
+			</nav>
 
 			<header>
 				<img class="header-image" src="https://cnn.it/2Hi25Xp">
@@ -78,7 +68,7 @@
 					<div class="source">source: <a id="source-link" href="https://bit.ly/3mdyBss">The Guardian</a></div>
 					<div class="source">image source: <a id="source-link" href="https://go.nature.com/2W8ifXo">Nature</a></div>
 				</div>
-			<article>
+            </article>
 		</div>
 	</body>
 </html>
