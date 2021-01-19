@@ -20,9 +20,7 @@ function blink(){
     });
 
     eye.addEventListener("pointerout", () => {
-        if (blinkCount >= 1){
-            hint.style.visibility = "hidden";
-        }
+     	hint.style.visibility = "hidden";
         console.log("Closing eye, setting background to black");
         eye.style.background = "";
     });
